@@ -1,3 +1,7 @@
+### Installation / Usage
+
+([Instructions here](https://github.com/uilchtchuirn/DR2-SmoothCockpitCam/blob/master/Installation.md))
+
 ### Credits
 
 Injectable Game Camera System by Frans Bouma 
@@ -14,5 +18,3 @@ automatically when you clone the repo. The camera uses DirectXMath for the 3D ma
 
 ### Acknowledgements
 Some camera code uses [MinHook](https://github.com/TsudaKageyu/minhook) by Tsuda Kageyu.
-
-
