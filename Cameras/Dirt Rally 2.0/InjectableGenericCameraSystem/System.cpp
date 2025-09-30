@@ -296,14 +296,14 @@ namespace IGCS
 		InterceptorHelper::toolsInit(_aobBlocks);
 		_deltaTime = 0.0f;
 
-		if (AutoRestoreWndw)
-		{
-			if (hWnd)
-			{
-				Sleep(AltTabWait);
-				ShowWindow(hWnd, SW_SHOWDEFAULT);
-			}
-		}
+		//if (AutoRestoreWndw)
+		//{
+		//	if (hWnd)
+		//	{
+		//		Sleep(AltTabWait);
+		//		ShowWindow(hWnd, SW_SHOWDEFAULT);
+		//	}
+		//}
 
 	}
 
