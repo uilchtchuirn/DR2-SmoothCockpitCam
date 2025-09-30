@@ -25,13 +25,13 @@
 
 ### Installation
 
- 1. Download the latest Release from [here](https://github.com/uilchtchuirn/DR2-SmoothCockpitCam/releases/) and extract the contents
+ 1. Download the latest Release from [here](https://github.com/uilchtchuirn/DR2-SmoothCockpitCam/releases/)
  2. Download Special K from https://www.special-k.info/ and install it
    (create an icon)
  3. Launch Special K and click on Config folder: Centralized, then close
    Special K but leave the Explorer window open
- 4. Copy the contents of the archive folder "Special K" from the DR2Tools
-   archive onto their respective locations in the Special K explorer
+ 4. Copy the contents of the folder "Special K" from DR2-SmoothCockpitCam
+   onto their respective locations in the Special K explorer
    window, overwrite if asked
  5. Copy DR2Tools.dll and DR2Tools.cfg from the archive's DR2Tools folder
    into the DiRT Rally 2.0 game directory (where dirtrally2.exe is
