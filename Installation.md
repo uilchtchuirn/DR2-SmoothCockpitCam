@@ -25,7 +25,7 @@
 
 ### Installation
 
- 1. Download the latest Release from this repo and extract the contents
+ 1. Download the latest Release from [here](https://github.com/uilchtchuirn/DR2-SmoothCockpitCam/releases/) and extract the contents
  2. Download Special K from https://www.special-k.info/ and install it
    (create an icon)
  3. Launch Special K and click on Config folder: Centralized, then close
