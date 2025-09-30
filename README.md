@@ -1,6 +1,4 @@
-### Installation / Usage
-
-[Instructions here](https://github.com/uilchtchuirn/DR2-SmoothCockpitCam/blob/master/Installation.md)
+### [Installation / Usage instructions here](https://github.com/uilchtchuirn/DR2-SmoothCockpitCam/blob/master/Installation.md)
 
 ### Credits
 
