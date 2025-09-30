@@ -3,6 +3,7 @@
  - A display capable of VRR (GSync / FreeSync) and a refresh rate higher than 60 Hz
  - A system capable of permanently keeping the game above 60 FPS
  - A bit of experience in terms of installing mods and changing your GPU settings (AKA: PC Gaming :))
+ - Be willing to install Special K onto your machine
 
 ### Preparations
 
