@@ -213,11 +213,6 @@ namespace IGCS
                 result.ConsoleEnabled = (val == "true" || val == "1");
 
             }
-            else if (keyLower == "autorestorewndw")
-            {
-                result.AutoRestoreWndw = (val == "true" || val == "1");
-
-            }
             else if (keyLower == "blend")
             {
                 try
@@ -280,32 +275,6 @@ namespace IGCS
                         val.c_str(), result.directInputToggleButtonIndex);
                 }
             }
-            else if (keyLower == "alttabwait")
-            {
-                try
-                {
-                    int parsed = std::stoi(val);
-                    if (parsed < 0)
-                    {
-                        MessageHandler::logError(
-                            "Config: AltTabWait value '%s' out of range (must be positive). Keeping default (%d).",
-                            val.c_str(), result.AltTabWait);
-                    }
-                    else
-                    {
-                        result.AltTabWait = parsed;
-                        
-                    }
-                }
-                catch (...)
-                {
-                    MessageHandler::logError(
-                        "Config: invalid value for 'AltTabWait' ('%s'). Keeping default (%d).",
-                        val.c_str(), result.AltTabWait);
-                }
-            }
-            
-
         }
 
         if (!blendFromIni)

@@ -50,8 +50,6 @@ namespace IGCS
 {
 	using namespace IGCS::GameSpecific;
 	static IGCS::DirectInputPad* s_directInput = nullptr;
-	const bool AutoRestoreWndw = IGCS::Config::get().AutoRestoreWndw;
-	const int AltTabWait = IGCS::Config::get().AltTabWait;
 
 	System::System():
 		_igcscacheData(),
@@ -295,15 +293,6 @@ namespace IGCS
 		//apply any code changes now
 		InterceptorHelper::toolsInit(_aobBlocks);
 		_deltaTime = 0.0f;
-
-		//if (AutoRestoreWndw)
-		//{
-		//	if (hWnd)
-		//	{
-		//		Sleep(AltTabWait);
-		//		ShowWindow(hWnd, SW_SHOWDEFAULT);
-		//	}
-		//}
 
 	}
 
