@@ -54,3 +54,4 @@
 ### Customization
 
  - If you want to change the level of smoothing or change the button binding for gamepad / wheel, edit DR2Tools.cfg  from the DR2.0 main directory accordingly (instructions inside)
+ - If you'd like to have a direct shortcut that automatically starts Special K and the game, create a shortcut with this target (note that you may have to adapt it to your specific setup): "C:\Program Files\Special K\SKIF.exe" SKIF_URI=steam://rungameid/690790 Start Temp
